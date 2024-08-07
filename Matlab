@@ -1,0 +1,50 @@
+Matlab exercise(The matrix can be defined by yourself):
+
+1.Familiar with Matlab interface and basic grammar(Learn by myself)
+
+2.Matrix application
+(1)Generate a two-dimensional random array with 100 rows and 200 columns
+(2)Find the single subscripts of all elements greater than 0.49 and less than 0.51 in array A
+(3)How many elements in array A satisfy the condition in (2)
+(4)Find the sum of the elements in the array A that meet the conditions in (2), and find the average of these elements
+(5)Assign the average value obtained in (4) to each element in the array A that meets the condition in (1)
+(6)Find all prime numbers between 100 and 200 and store these prime numbers in a row array
+(7)Calculate the sum of prime numbers in (6)
+(8)Calculate the sum of all non-prime numbers between 100 and 200 (including 100 and 200)
+
+3.Learn about plot/scatter/bar/hist/pie/surface/contour/imshow/imagesc/mesh/surf/contour3/contour3
+
+4.y = [0.7+2*cos(x)/(1+x^2)]*sin(x), write a matlab program, the requirements are as follows:
+(1)In the interval [0,2], take a value of x every 0.01 to calculate the corresponding function value of y;
+(2)According to the data calculated by MATLAB, find the coordinates of the minimum value of the function in [0,2]
+
+5.Use for and while loop statements to calculate K = Σ2^i (i=0, n=63) programs. 
+(More)Please also write a calculation program that avoids loops. (Do not use the symsum function)
+
+6.Write MATLAB script to output "number of daffodils" and the number of daffodils. The so-called "daffodil number" is a three-digit number, 
+and the sum of the cubes of the digits is equal to the number itself.(For example, 153 = 1^3+5^3+3^3)
+
+7.Use of find function(Try to use its function,write your own demo)
+
+8.Draw the curve y=x^3+x+1, the value range of x is [-5,5]
+
+9.y=sin(x), x from 0 to 2*Pi, dx=0.02, find the maximum, minimum, mean and standard deviation of y
+
+10.Writing function modules(Call your own function):
+Function input parameters: a vector
+
+Function output parameter: the sum of all elements greater than 0 in the vector
+
+Function: Find the sum of all elements greater than 0 in the vector (Example of function call: s=fun([-1, 0, 2, 3, -5, 4]))
+
+11.Use Matlab to generate DLL files and call them with C++
+
+12.Compile the C++ program into a mex file and call it by matlab
+
+13.Convert script file to C++ file using matlab Coder and call them with C++ （Matlab Function:interp2）
+
+14.UI Design Application
+(1)One button loads the image and displays it
+(2)Visualize 3D images
+(3)Add various noises to images
+(4)Realize different filtering methods in the frequency domain and can display
