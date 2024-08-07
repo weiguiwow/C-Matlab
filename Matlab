@@ -101,3 +101,20 @@ for num = 100:999
 end   
 disp(length(nums));
 disp(nums);
+
+7.
+X = [1 0 2; 0 1 5; 7 4 2];
+
+%查找非0元素索引
+indics = find(X);
+disp(indics);
+
+%查找大于1的元素的索引
+M = find(1 < X < 4)
+disp(M);
+
+%查找矩阵中为0的下标
+[row, col] = find(X == 0);
+disp([row, col]);
+
+
