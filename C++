@@ -1,0 +1,52 @@
+section 1 : string control
+1. string to char convert
+2. char to string convert
+3. string to CString convert
+4. string combine
+5. string split
+6. string to int/double
+7. int convert to string(hex style)
+8. double convert to string
+9. convert string to upper or lower.
+10. string remove symbol
+11. string replace symbol
+12. string compare
+13. allocate memory by string and release.
+14. string copy.
+15. LPCTSTR and string convert.
+
+section 2: function
+1. function parameter pass by value and pass by reference. Example: bool Calculator (IN double a, IN double a, OUT double x, OUT double y, reference string log)
+2. export function to dll   (working fine in C# and MFC. function need contain multi parameter(by value and by reference))
+3. import function from dll (working fine in C# and MFC. function need contain multi parameter(by value and by reference))
+4. delegate a function.
+5. text read and write.
+6. declare a functions with unknown number of arguments.
+7. template exercise.
+8. Math computing
+9. try catch and throw
+10. File exist check, delete, copy, create and move.
+11. folder exist check, delete, copy, create and move.
+12. multi-thread computing(call same function).
+
+section 3: class/struct
+1. constructor ,destructor.
+2. typedef struct 
+3. private and public function
+4. private and public variable
+5. pointer
+6. template
+7. delegate in class
+8. operator
+9. Inheritance 
+
+section 4: variable
+1. Lock and Unlock.
+2. enumeration
+3. vector (find, erase, resize, reserve/insert etc...)
+4. const
+5. map (insert/find/erase/empty etc...)
+6. Iterator(container)
+7. test Efficiency for loop access/code Efficiency
+8. std::pair
+9. memory malloc, calloc, realloc and free
