@@ -48,3 +48,56 @@ Function: Find the sum of all elements greater than 0 in the vector (Example of 
 (2)Visualize 3D images
 (3)Add various noises to images
 (4)Realize different filtering methods in the frequency domain and can display
+
+
+ANSWER 
+2.
+A = rand(100,200);
+indices = find(A > 0.49 & A < 0.51);
+B = length(indices);
+sum_elemants = sum(A(indices));  average = mean(A(indices));
+A(indices) = average;
+primes_array = primes(200);
+primes_array = primes_array(primes_array >= 100);
+sum_primes = sum(primes_array);
+nums = 100:200;
+non_primes = setdiff(nums, primes_array);
+sum_non = sum(non_primes);
+
+3.
+
+4.
+
+5.
+%% using for loop
+K_for = 0;
+for i = 0:63;
+    K_for = K_for + 2^i;
+end
+disp(['sum using for: ', num2str(K_for)]);
+% using for while
+K_while = 0;
+i = 0;
+while i <= 63;
+    K_while = K_while + 2^i;
+    i = i + 1;
+end
+disp(['sum using while: ', num2str(K_while)]);
+% without using loop
+n = 63;
+K_non = 2^(n+1) - 1;
+disp(['sum without loop: ', num2str(K_non)]);
+
+6.
+nums = [];
+for num = 100:999
+    hundreds = floor(num/100);
+    tens = floor(mod(num, 100)/10);
+    units = mod(num, 10);
+
+    if(hundreds^3 + tens^3 + units^3) == num
+        nums = [nums, num];
+    end
+end   
+disp(length(nums));
+disp(nums);
